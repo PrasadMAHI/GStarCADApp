@@ -52,7 +52,7 @@ namespace GstarCadApp
 
                 return GcadApp != null;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
             }
 
