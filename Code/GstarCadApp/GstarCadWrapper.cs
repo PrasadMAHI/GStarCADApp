@@ -39,12 +39,13 @@ namespace GstarCadApp
         {
             try
             {
-                if (IsGStarCadRunning()) //GstarCAD already running 
-                {
-                    object objGcadApp = Marshal.GetActiveObject("Gcad.GcadApplication");
-                    GcadApp = (GcadApplication)objGcadApp;
-                }
-                else
+                //Currently we are launching the GStar CAD to do operations..
+                //if (IsGStarCadRunning()) //GstarCAD already running 
+                //{
+                //    object objGcadApp = Marshal.GetActiveObject("Gcad.GcadApplication");
+                //    GcadApp = (GcadApplication)objGcadApp;
+                //}
+                //else
                 { //GstarCAD not running
                     GcadApp = new GcadApplication();
                     GcadApp.Visible = true;
