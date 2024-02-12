@@ -35,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="GrxCAD.Interop">
-      <HintPath>C:\Users\mahii\Downloads\grxsdk_2024\grxsdk\inc-x64\GrxCAD.Interop.dll</HintPath>
+      <HintPath>..\Libs\GrxCAD.Interop.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
